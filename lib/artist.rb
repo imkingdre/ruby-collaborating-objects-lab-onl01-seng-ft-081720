@@ -10,6 +10,7 @@ class Artist
   end
   
   def add_song(song)
+    add_song.Song.new(song)
     @songs << song 
   end
   
